@@ -1,0 +1,11 @@
+# Inicia contenedor en docker
+
+docker run \
+--name contenedor-postgres \
+-p 5432:5432 \
+-e POSTGRES_PASSWORD=miclavesecreta \
+-d postgres:15.2-alpine3.17
+
+# Accede a cli contenedor
+
+docker exec -it contenedor-postgres psql -U postgres
