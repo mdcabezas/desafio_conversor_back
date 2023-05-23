@@ -4,15 +4,17 @@
 
 - Interactúa con una base de datos **Postgres** que proporciona datos a los diferentes endpoints.
 
-- Variables disponibles para la base de datos en archivo .env:
-  ```
-PGHOST=localhost
-PGPORT=5432
-PGUSER=miusuario
-PGPASSWORD=miclave
-PGDATABASE=mibase
-   ```
- - Archivos disponibles:
+
+### Variables disponibles para la base de datos en archivo .env:
+
+```
+PGHOST=localhost  
+PGPORT=5432  
+PGUSER=miusuario  
+PGPASSWORD=miclave  
+PGDATABASE=mibase  
+```
+ ### Archivos disponibles:
 
 - **DockerPostgres.txt** para generar contenedor en Docker.
 
@@ -25,6 +27,7 @@ PGDATABASE=mibase
 1. Descarga el repositorio.
 2. Abre una terminal en el directorio raíz del proyecto.
 3. En el directorio raíz del proyecto, ejecuta el siguiente comando para instalar las dependencias necesarias:
+
    ```
    npm install
    ```
